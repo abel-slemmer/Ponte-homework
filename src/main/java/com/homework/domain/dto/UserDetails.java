@@ -1,9 +1,13 @@
 package com.homework.domain.dto;
 
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class UserDetails {
 
+    @JsonProperty("login_id")
     private String loginId;
+
     private String password;
 
     public UserDetails(String loginId, String password) {
@@ -14,6 +18,7 @@ public class UserDetails {
     public UserDetails() {
     }
 
+    @JsonProperty("login_id")
     public String getLoginId() {
         return loginId;
     }
@@ -34,9 +39,9 @@ public class UserDetails {
 
     @Override
     public String toString() {
-        return "UserDetails{" +
-                "loginId='" + loginId + '\'' +
-                ", password='" + password + '\'' +
-                '}';
+        return "{" +
+                "\"loginId\"=" + loginId + "\n"+
+                "\"password\"=" + password +
+                "}";
     }
 }

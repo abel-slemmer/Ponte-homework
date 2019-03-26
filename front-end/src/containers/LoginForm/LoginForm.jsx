@@ -18,7 +18,7 @@ const LoginForm = props => {
   const submitHandler = event => {
     event.preventDefault();
     const formData = {
-      loginId: userName,
+      login_id: userName,
       password: password
     };
     

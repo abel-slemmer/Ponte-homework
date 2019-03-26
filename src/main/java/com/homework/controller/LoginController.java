@@ -21,10 +21,21 @@ public class LoginController {
 
     private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 
+    private LoginService loginService;
+
+    @Autowired
+    public LoginController(LoginService loginService) {
+        this.loginService = loginService;
+    }
 
     @PostMapping("/login")
     public ResponseEntity<?> getUserDetails(@RequestBody UserDetails userDetails) {
+        String mattermostLoginUrl= "http://mattermost.office.ponte.hu/api/v4/users/login";
+
         logger.warn("this is JSON"+ userDetails.toString());
+        String apiResponse = loginService.loginRequest(userDetails,mattermostLoginUrl);
+        logger.warn("this is JSON"+ apiResponse);
+
         return new ResponseEntity<>(HttpStatus.OK);
     }
 

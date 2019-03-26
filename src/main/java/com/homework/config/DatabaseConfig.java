@@ -26,7 +26,7 @@ public class DatabaseConfig {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
 
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/chat-db?serverTimezone=UTC&characterEncoding=utf8");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/chat-db?serverTimezone=UTC&characterEncoding=utf8&useSSL=false");
         dataSource.setUsername("root");
         dataSource.setPassword("test1234");
 
