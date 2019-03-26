@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="homework" />
+      <artifact name="ponte-homework:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="476f3b4b-186e-40fd-971d-80cfb1fc28d5" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/front-end/src/common/Layout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/containers/LoginForm/LoginForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ponte/homework/config/DatabaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ponte/homework/config/WebInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ponte/homework/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ponte/homework/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ponte/homework/domain/dto/UserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Calculator/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DomDemo/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DomDemo/TodoList/index.html" beforeDir="false" />
@@ -29,15 +24,26 @@
       <change beforePath="$PROJECT_DIR$/../beleriand/src/beleriand/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../beleriand/src/beleriand/Player.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../beleriand/src/beleriand/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWeb/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWeb/src/main/java/servlet/GreetingServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWeb/src/main/java/servlet/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWeb/src/main/java/servlet/IndexServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWeb/src/main/java/servlet/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWeb/src/main/java/servlet/WelcomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloWeb/src/test/java/hu/progmasters/InputHandleServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pokerSort/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ponte/homework/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ponte/homework/config/SpringWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/containers/LoginForm/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/containers/LoginForm/LoginForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ponte-homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ponte-homework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ponte/homework/config/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/config/DatabaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ponte/homework/config/SpringWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/config/SpringWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ponte/homework/config/WebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/config/WebInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ponte/homework/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ponte/homework/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ponte/homework/domain/dto/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/domain/dto/UserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/LoginService.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,60 +53,99 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@chat-db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@chat-db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@chat-db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="chat-db: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-725158356">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="MF" value="1" />
           <entry key="css" value="4" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="21" />
           <entry key="js" value="5" />
-          <entry key="json" value="1" />
+          <entry key="json" value="2" />
           <entry key="jsx" value="3" />
-          <entry key="xml" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="8" />
-          <entry key="JSON" value="1" />
+          <entry key="JAVA" value="21" />
+          <entry key="JSON" value="2" />
           <entry key="JSX Harmony" value="3" />
           <entry key="JavaScript" value="5" />
+          <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
           <entry key="html" value="31" />
-          <entry key="java" value="308" />
+          <entry key="java" value="557" />
           <entry key="js" value="28" />
-          <entry key="jsx" value="188" />
-          <entry key="txt" value="4" />
-          <entry key="xml" value="2" />
+          <entry key="jsx" value="193" />
+          <entry key="txt" value="50" />
+          <entry key="xml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="31" />
-          <entry key="JAVA" value="308" />
-          <entry key="JSX Harmony" value="188" />
+          <entry key="JAVA" value="557" />
+          <entry key="JSX Harmony" value="193" />
           <entry key="JavaScript" value="28" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="XML" value="2" />
+          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="XML" value="21" />
         </counts>
       </usages-collector>
     </session>
@@ -108,46 +153,108 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/containers/LoginForm/LoginForm.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-              <folding>
-                <element signature="e#12#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/common/Layout.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ponte/homework/config/SpringWebConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/config/DatabaseConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/domain/dto/UserDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/config/WebInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/config/SpringWebConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/service/LoginService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ponte/homework/domain/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="2">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,48 +263,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/LoginService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ponte/homework/config/WebInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ponte/homework/config/DatabaseConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/web/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -206,6 +273,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -215,19 +283,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/front-end/src/index.js" />
         <option value="$PROJECT_DIR$/front-end/src/App.js" />
         <option value="$PROJECT_DIR$/front-end/public/index.html" />
-        <option value="$PROJECT_DIR$/front-end/src/containers/LoginForm/LoginForm.jsx" />
         <option value="$PROJECT_DIR$/front-end/src/common/Layout.jsx" />
-        <option value="$PROJECT_DIR$/src/main/java/ponte/homework/config/DatabaseConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ponte/homework/config/SpringWebConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ponte/homework/config/WebInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ponte/homework/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ponte/homework/domain/dto/UserDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ponte/homework/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/front-end/src/containers/LoginForm/LoginForm.jsx" />
+        <option value="$PROJECT_DIR$/src/main/java/ponte/homework/config/WebInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ponte/homework/config/SpringWebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ponte/homework/config/DatabaseConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ponte/homework/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ponte/homework/domain/dto/UserDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ponte/homework/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/ponte/homework/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homework/config/SpringWebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homework/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homework/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homework/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homework/domain/dto/UserDetails.java" />
       </list>
     </option>
   </component>
@@ -243,9 +319,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="excludeTargetFolder" value="false" />
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
@@ -256,6 +341,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ponte" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ponte" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -278,7 +368,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <compactDirectories Scope="false" />
+      <compactDirectories Scope="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -288,52 +378,6 @@
             <path>
               <item name="ponte-homework" type="58d84e3e:PackageViewProjectNode" />
               <item name="ponte-homework" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ponte" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ponte" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -368,28 +412,85 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src/main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src/main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src/main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src/main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src/main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="domain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src/main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="domain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dto" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553539917984" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553600266775" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ábel\Desktop\projects\ponte-homework\web\WEB-INF" />
+      <recent name="C:\Users\Ábel\Desktop\projects\ponte-homework" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ábel\Desktop\projects\ponte-homework\front-end" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ábel\Desktop\projects\ponte-homework" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -404,28 +505,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
-    <configuration name="All Features in: main" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ponte-homework" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="All Features in: main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+  <component name="RunManager">
+    <configuration name="chat-back-end" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="homework">
+        <artifact name="ponte-homework:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -489,19 +573,10 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="homework" />
+          <artifact name="ponte-homework:war exploded" />
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Cucumber java.All Features in: main" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Cucumber java.All Features in: main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -515,7 +590,12 @@
       <updated>1553511944043</updated>
       <workItem from="1553511948940" duration="1109000" />
       <workItem from="1553515429651" duration="37000" />
-      <workItem from="1553515488948" duration="11029000" />
+      <workItem from="1553515488948" duration="11943000" />
+      <workItem from="1553547693711" duration="2202000" />
+      <workItem from="1553550600627" duration="5687000" />
+      <workItem from="1553593435903" duration="1765000" />
+      <workItem from="1553595247342" duration="1480000" />
+      <workItem from="1553598318046" duration="1901000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1553517502638</created>
@@ -531,7 +611,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553517609335</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" init FE add LoginPage&#10;init BE">
+      <created>1553540056049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553540056049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -540,7 +627,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12175000" />
+    <option name="totallyTimeSpent" value="26124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,31 +640,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.2065053" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.21558245" />
       <window_info id="Structure" order="1" sideWeight="0.50111854" side_tool="true" weight="0.18532526" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50111854" side_tool="true" weight="0.18532526" />
-      <window_info active="true" anchor="bottom" id="Application Servers" visible="true" weight="0.096721314" />
-      <window_info anchor="bottom" id="Spring" weight="0.3295082" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295082" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.89344263" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.4819672" />
       <window_info anchor="bottom" id="SonarLint" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" weight="0.2672131" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.67704916" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.22295082" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -585,8 +672,9 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.41452345" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3290469" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,26 +711,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value=" init FE add LoginPage&#10;init BE" />
+    <option name="LAST_COMMIT_MESSAGE" value=" init FE add LoginPage&#10;init BE" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/front-end/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
@@ -652,16 +729,7 @@
         <state relative-caret-position="-648" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/App.css" />
     <entry file="file://$PROJECT_DIR$/front-end/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -669,9 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,102 +751,133 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/common/Layout.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/LoginService.java" />
     <entry file="file://$PROJECT_DIR$/front-end/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="396">
           <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/containers/LoginForm/LoginForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-          <folding>
-            <element signature="e#12#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/common/Layout.jsx">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57beb35d-7118-4692-bfd2-7ad88bace601/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/service/LoginService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ponte/homework/config/WebInitializer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/config/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ponte/homework/config/SpringWebConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/config/SpringWebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/config/DatabaseConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/LoginService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="126">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ponte/homework/config/DatabaseConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+        <state relative-caret-position="82">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ponte/homework/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/domain/dto/UserDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="376">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ponte/homework/domain/dto/UserDetails.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ponte/homework/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="2">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -794,7 +890,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>homework</last-edited>
+          <last-edited>ponte-homework:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -807,7 +903,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (ponte-homework)|Spring</last-edited>
+          <last-edited>Web (ponte-homework)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -842,12 +938,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ponte-homework</last-edited>
+          <last-edited>Web|ponte-homework</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

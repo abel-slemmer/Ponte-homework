@@ -1,4 +1,4 @@
-package ponte.homework.config;
+package com.homework.config;
 
 
 import org.springframework.context.annotation.Bean;
@@ -18,8 +18,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages = "ponte.homework.repository")
-
+@EnableJpaRepositories(basePackages = "com.homework.repository")
 public class DatabaseConfig {
 
     @Bean
@@ -28,7 +27,7 @@ public class DatabaseConfig {
 
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/chat-db?serverTimezone=UTC&characterEncoding=utf8");
-        dataSource.setUsername("test");
+        dataSource.setUsername("root");
         dataSource.setPassword("test1234");
 
         return dataSource;
@@ -38,7 +37,7 @@ public class DatabaseConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan("ponte.homework.domain");
+        em.setPackagesToScan("com.homework.domain");
 
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);

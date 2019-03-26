@@ -18,22 +18,13 @@ const LoginForm = props => {
   const submitHandler = event => {
     event.preventDefault();
     const formData = {
-      login_id: userName,
+      loginId: userName,
       password: password
     };
     
-    let myUrl = "http://mattermost.office.ponte.hu/api/v4/users/login";
+    let myUrl = "http://localhost:8080/api/user/login";
 
-    axios.post(myUrl,{
-        data:formData,
-        mode: 'no-cors',
-        headers: {
-          'Access-Control-Allow-Origin': '*',
-          'Content-Type': 'application/json',
-        },
-        withCredentials: true,
-        credentials: 'same-origin'
-    })
+    axios.post(myUrl,formData)
         .then(response=>{
             console.log(formData);
             console.log(response);

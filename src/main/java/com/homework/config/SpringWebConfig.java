@@ -1,4 +1,4 @@
-package ponte.homework.config;
+package com.homework.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan("ponte")
+@ComponentScan("com")
 public class SpringWebConfig implements WebMvcConfigurer {
 
     @Bean
@@ -27,8 +27,7 @@ public class SpringWebConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
                 .allowedOrigins("http://localhost:3000",
-                        "http://127.0.0.1:3000",
-                        "http://34.245.174.120")
+                        "http://127.0.0.1:3000")
                 .allowedMethods("GET", "POST", "DELETE", "PUT")
                 .allowCredentials(true);
     }
