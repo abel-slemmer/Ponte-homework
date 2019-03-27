@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="476f3b4b-186e-40fd-971d-80cfb1fc28d5" name="Default Changelist" comment="Bug fix">
-      <change afterPath="$PROJECT_DIR$/front-end/src/Components/PostItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Calculator/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DomDemo/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DomDemo/TodoList/index.html" beforeDir="false" />
@@ -31,13 +30,6 @@
       <change beforePath="$PROJECT_DIR$/../helloWeb/src/test/java/hu/progmasters/InputHandleServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pokerSort/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/containers/LoginForm/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/containers/LoginForm/LoginForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/containers/MainPage/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/containers/MainPage/MainPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/config/SpringWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/config/SpringWebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/service/UserService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,7 +96,7 @@
           <entry key="java" value="25" />
           <entry key="js" value="5" />
           <entry key="json" value="2" />
-          <entry key="jsx" value="7" />
+          <entry key="jsx" value="8" />
           <entry key="sql" value="1" />
           <entry key="xml" value="6" />
         </counts>
@@ -115,7 +107,7 @@
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="25" />
           <entry key="JSON" value="2" />
-          <entry key="JSX Harmony" value="7" />
+          <entry key="JSX Harmony" value="8" />
           <entry key="JavaScript" value="5" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -165,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/domain/dto/UserDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="90">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -186,7 +178,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/service/LoginService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="274">
               <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -195,11 +187,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="187">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,7 +202,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
+            <state relative-caret-position="889">
               <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -219,26 +214,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/src/containers/MainPage/MainPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="127" column="18" lean-forward="true" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+            <state relative-caret-position="76">
+              <caret line="109" column="6" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/containers/LoginForm/LoginForm.jsx">
+        <entry file="file://$PROJECT_DIR$/front-end/src/Components/PostItem.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+            <state relative-caret-position="83">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="332">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#515#516#0" expanded="true" />
@@ -307,11 +302,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/homework/domain/dto/UserDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homework/domain/dto/PostDetails.java" />
         <option value="$PROJECT_DIR$/front-end/src/containers/LoginForm/LoginForm.jsx" />
-        <option value="$PROJECT_DIR$/src/main/java/com/homework/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homework/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homework/config/SpringWebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homework/service/LoginService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/homework/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homework/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -419,36 +414,13 @@
             <path>
               <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src/main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="front-end" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src/main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src/main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src/main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ponte-homework" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ponte-homework" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src/main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.homework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="front-end" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -473,7 +445,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553726338054" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553726420160" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -596,7 +568,7 @@
       <workItem from="1553595247342" duration="1480000" />
       <workItem from="1553598318046" duration="16751000" />
       <workItem from="1553641915926" duration="157000" />
-      <workItem from="1553682382052" duration="30024000" />
+      <workItem from="1553682382052" duration="30324000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1553517502638</created>
@@ -668,7 +640,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553723499177</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Bug fix">
+      <created>1553726409166</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1553726409166</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -677,7 +656,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71155000" />
+    <option name="totallyTimeSpent" value="71455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -702,7 +681,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.84590167" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.7672131" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -714,7 +693,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.67704916" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.3295082" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.024590164" />
+      <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -914,13 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/containers/MainPage/MainPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="127" column="18" lean-forward="true" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/config/SpringWebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -935,38 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -988,15 +928,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/domain/dto/UserDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="889">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="187">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/containers/MainPage/MainPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="109" column="6" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/Components/PostItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
