@@ -2,7 +2,6 @@ package com.homework.controller;
 
 
 import com.homework.domain.dto.UserDetails;
-import com.mysql.cj.xdevapi.JsonString;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,12 +10,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 import org.springframework.web.bind.annotation.*;
-import com.homework.repository.UserRepository;
 import com.homework.service.LoginService;
 
-
 @RestController
-@RequestMapping("/api/user")
+@RequestMapping("/api/login")
 public class LoginController {
 
     private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
@@ -28,15 +25,13 @@ public class LoginController {
         this.loginService = loginService;
     }
 
-    @PostMapping("/login")
+    @PostMapping
     public ResponseEntity<?> getUserDetails(@RequestBody UserDetails userDetails) {
         String mattermostLoginUrl= "http://mattermost.office.ponte.hu/api/v4/users/login";
 
-        logger.warn("this is JSON"+ userDetails.toString());
-        String apiResponse = loginService.loginRequest(userDetails,mattermostLoginUrl);
-        logger.warn("this is JSON"+ apiResponse);
+        ResponseEntity<String> responseEntity = loginService.loginRequest(userDetails,mattermostLoginUrl);
 
-        return new ResponseEntity<>(HttpStatus.OK);
+        return new ResponseEntity<>(responseEntity, HttpStatus.OK);
     }
 
     @GetMapping
