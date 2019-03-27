@@ -10,13 +10,7 @@ public class UserDetails {
 
     private String password;
 
-    public UserDetails(String loginId, String password) {
-        this.loginId = loginId;
-        this.password = password;
-    }
 
-    public UserDetails() {
-    }
 
     @JsonProperty("login_id")
     public String getLoginId() {

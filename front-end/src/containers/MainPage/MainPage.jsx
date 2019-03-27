@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ChannelListItem from "../../Components/ChannelItem";
+import PostItem from "../../Components/PostItem";
 
 const MainPage = props => {
   const [userName, setUserName] = useState("");
@@ -10,6 +11,7 @@ const MainPage = props => {
   const [members, setMembers] = useState([]);
   const [inputText, setinputText] = useState("");
   const [posts,setPost]=useState([]);
+  const[currentChannelId,setCurretnChannelId]=useState("")
 
   useEffect(() => {
     axios
@@ -59,15 +61,48 @@ const MainPage = props => {
   }, [isLoading]);
 
   const getPosts = (channelId)=>{
-    console.log(channelId);
-    
+    axios
+    .get("/api/user/posts/"+channelId)
+    .then(response => {
+      setPost(response.data.order)
+      setCurretnChannelId(channelId)
+      console.log(posts);  
+    })
+    .catch(error => {
+      console.log(error);
+    });
   }
 
-  const handleSubmit = () => {};
+  const handleSubmit = () => {
+    const formData = {
+      channel_id: currentChannelId,
+      message: inputText
+    };
+    let myUrl = "/api/user/createPost";
 
-  const changeHandler = event => {};
+    axios
+      .post(myUrl, formData)
+      .then(response => {
+        console.log(response.data);
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  };
 
-  let ChannelItem = channels.map(channel => (
+  const changeHandler = event => {
+    setinputText(event.target.value)
+  };
+ 
+   let renderPosts = posts.map(postId=>(
+    <PostItem
+    key={postId}
+    id={postId}
+    />
+  ));
+
+
+  let channelItem = channels.map(channel => (
     <ChannelListItem
       name={channel.display_name}
       key={channel.id}
@@ -87,12 +122,14 @@ const MainPage = props => {
             <div className="d-flex justify-content-center">
               <div className="d-flex flex-column bd-highlight mb-3">
                 <h2>Csatornák</h2>
-                {ChannelItem}
+                {channelItem}
               </div>
             </div>
           </div>
           <div className="col-md-10">
-            <div className="h-200">asdasd</div>
+          <div className="d-flex flex-column-reverse bd-highlight">
+            {renderPosts}
+          </div>
           </div>
         </div>
         <div className="row fixed-bottom">
@@ -103,6 +140,7 @@ const MainPage = props => {
               </button>
               <textarea
                 onChange={changeHandler}
+                value={inputText}
                 placeholder="Write your message here!"
                 className="mr-5 mb-5"
                 name="textare"

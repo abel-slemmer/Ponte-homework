@@ -1,6 +1,9 @@
 package com.homework.service;
 
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.homework.domain.dto.PostDetails;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.*;
@@ -26,11 +29,30 @@ public class UserService {
 
         HttpEntity entity = new HttpEntity(headers);
 
+        return restTemplate.exchange(apiUrl, HttpMethod.GET,entity, String.class);
 
-        ResponseEntity<String> responseEntity = restTemplate.exchange(apiUrl, HttpMethod.GET,entity, String.class);
-        logger.warn("this is response teams"+responseEntity.getHeaders());
+    }
 
-        return responseEntity;
+
+    public ResponseEntity<String> creatPostRequest(PostDetails postDetails, String reqUrl,String authToken) {
+
+        RestTemplate restTemplate = new RestTemplate();
+        ObjectMapper mapper = new ObjectMapper();
+        HttpHeaders headers = new HttpHeaders();
+
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.set("Authorization", "Bearer "+ authToken);
+
+        String jsonInString = null;
+        try {
+            jsonInString = mapper.writeValueAsString(postDetails);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+
+        HttpEntity<String> userDetailsHttpEntity = new HttpEntity<>(jsonInString, headers);
+
+        return restTemplate.postForEntity(reqUrl, userDetailsHttpEntity, String.class);
     }
 
 
