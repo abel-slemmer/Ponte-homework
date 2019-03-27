@@ -2,7 +2,6 @@ package com.homework.controller;
 
 
 import com.homework.domain.dto.PostDetails;
-import com.homework.domain.dto.UserDetails;
 import com.homework.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,11 +25,10 @@ public class UserController {
     }
 
     @GetMapping("/me")
-    public ResponseEntity<?> getUserDetails(@CookieValue("MMUSERID") String userId, @CookieValue("MMAUTHTOKEN") String userToken) {
+    public ResponseEntity<String> getUserDetails(@CookieValue("MMUSERID") String userId, @CookieValue("MMAUTHTOKEN") String userToken) {
 
         String apiUrl = "http://mattermost.office.ponte.hu/api/v4/users/" + userId;
         return userService.getRequestToAPI(apiUrl, userToken);
-
     }
 
     @GetMapping("/team")
@@ -71,11 +69,11 @@ public class UserController {
     }
 
     @PostMapping("/createPost")
-    public ResponseEntity<?> creatPost(@CookieValue("MMAUTHTOKEN") String userToken,@RequestBody PostDetails postDetails ){
+    public ResponseEntity<?> createPost(@CookieValue("MMAUTHTOKEN") String userToken,@RequestBody PostDetails postDetails ){
 
         String createPostUrl= "http://mattermost.office.ponte.hu/api/v4/posts";
 
-        ResponseEntity<String> responseEntity = userService.creatPostRequest(postDetails,createPostUrl,userToken);
+        ResponseEntity<String> responseEntity = userService.createPostRequest(postDetails,createPostUrl,userToken);
 
         return new ResponseEntity<>(responseEntity, HttpStatus.OK);
     }

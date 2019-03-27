@@ -10,8 +10,8 @@ const MainPage = props => {
   const [channels, setChannesl] = useState([]);
   const [members, setMembers] = useState([]);
   const [inputText, setinputText] = useState("");
-  const [posts,setPost]=useState([]);
-  const[currentChannelId,setCurretnChannelId]=useState("")
+  const [posts, setPost] = useState([]);
+  const [currentChannelId, setCurretnChannelId] = useState("");
 
   useEffect(() => {
     axios
@@ -48,6 +48,7 @@ const MainPage = props => {
         .catch(error => {
           console.log(error);
         });
+
       axios
         .get("/api/user/members/" + localStorage.getItem("teamId"))
         .then(response => {
@@ -60,18 +61,18 @@ const MainPage = props => {
     }
   }, [isLoading]);
 
-  const getPosts = (channelId)=>{
+  const getPosts = channelId => {
     axios
-    .get("/api/user/posts/"+channelId)
-    .then(response => {
-      setPost(response.data.order)
-      setCurretnChannelId(channelId)
-      console.log(posts);  
-    })
-    .catch(error => {
-      console.log(error);
-    });
-  }
+      .get("/api/user/posts/" + channelId)
+      .then(response => {
+        setPost(response.data.order);
+        setCurretnChannelId(channelId);
+        console.log(posts);
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  };
 
   const handleSubmit = () => {
     const formData = {
@@ -84,6 +85,7 @@ const MainPage = props => {
       .post(myUrl, formData)
       .then(response => {
         console.log(response.data);
+        getPosts(currentChannelId)
       })
       .catch(error => {
         console.log(error);
@@ -91,23 +93,17 @@ const MainPage = props => {
   };
 
   const changeHandler = event => {
-    setinputText(event.target.value)
+    setinputText(event.target.value);
   };
- 
-   let renderPosts = posts.map(postId=>(
-    <PostItem
-    key={postId}
-    id={postId}
-    />
-  ));
 
+  let renderPosts = posts.map(postId => <PostItem key={postId} id={postId} />);
 
   let channelItem = channels.map(channel => (
     <ChannelListItem
       name={channel.display_name}
       key={channel.id}
       id={channel.id}
-      getPosts={()=>getPosts(channel.id)}
+      getPosts={() => getPosts(channel.id)}
     />
   ));
 
@@ -127,9 +123,9 @@ const MainPage = props => {
             </div>
           </div>
           <div className="col-md-10">
-          <div className="d-flex flex-column-reverse bd-highlight">
-            {renderPosts}
-          </div>
+            <div className="d-flex flex-column-reverse bd-highlight">
+              {renderPosts}
+            </div>
           </div>
         </div>
         <div className="row fixed-bottom">

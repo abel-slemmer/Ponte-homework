@@ -25,24 +25,20 @@ public class LoginService {
         RestTemplate restTemplate = new RestTemplate();
         ObjectMapper mapper = new ObjectMapper();
         HttpHeaders headers = new HttpHeaders();
+
         headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
 
         String jsonInString = null;
         try {
             jsonInString = mapper.writeValueAsString(user);
         } catch (JsonProcessingException e) {
-            e.printStackTrace();
+            logger.warn("JsonProcessingException "+e);
         }
 
         HttpEntity<String> userDetailsHttpEntity = new HttpEntity<>(jsonInString, headers);
 
-        logger.warn("Before REG sent " + userDetailsHttpEntity.getBody());
-        logger.warn("Before REG sent " + userDetailsHttpEntity.getHeaders());
+        return  restTemplate.postForEntity(reqUrl, userDetailsHttpEntity, String.class);
 
-        ResponseEntity<String> responseEntity = restTemplate.postForEntity(reqUrl, userDetailsHttpEntity, String.class);
-
-
-        return responseEntity;
     }
 
 

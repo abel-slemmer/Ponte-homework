@@ -34,7 +34,7 @@ public class UserService {
     }
 
 
-    public ResponseEntity<String> creatPostRequest(PostDetails postDetails, String reqUrl,String authToken) {
+    public ResponseEntity<String> createPostRequest(PostDetails postDetails, String reqUrl, String authToken) {
 
         RestTemplate restTemplate = new RestTemplate();
         ObjectMapper mapper = new ObjectMapper();
@@ -47,7 +47,7 @@ public class UserService {
         try {
             jsonInString = mapper.writeValueAsString(postDetails);
         } catch (JsonProcessingException e) {
-            e.printStackTrace();
+             logger.warn("Json transform error: "+e);
         }
 
         HttpEntity<String> userDetailsHttpEntity = new HttpEntity<>(jsonInString, headers);

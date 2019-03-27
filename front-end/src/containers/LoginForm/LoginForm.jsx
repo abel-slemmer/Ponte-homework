@@ -1,11 +1,23 @@
 //@ts-check
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 import axios from "axios";
 
 const LoginForm = props => {
   const [userName, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [loginValid, setLoginValid] = useState(true);
+
+  useEffect(()=>{
+    axios
+        .get("/api/user/me")
+        .then(() => {
+          props.history.push("/mainPage");
+        })
+        .catch(error => {
+          console.log(error);
+        });
+  },[]);
+
 
   const inputChangeHandler = event => {
     setLoginValid(true);
@@ -24,13 +36,10 @@ const LoginForm = props => {
     };
 
     let myUrl = "/api/login";
-
     axios
       .post(myUrl, formData)
       .then(response => {
-        console.log(response.data);
-        document.cookie = "MMAUTHTOKEN="+response.data.headers.Token[0];
-        document.cookie = response.data.headers["Set-Cookie"][1];
+        console.log("sucsessfull login response",response.data.headers);
         props.history.push("/mainPage")
       })
       .catch(error => {
