@@ -1,7 +1,6 @@
 package com.homework.service;
 
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.*;
@@ -9,7 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.Collections;
+
 
 @Service
 @Transactional
@@ -27,9 +26,9 @@ public class UserService {
 
         HttpEntity entity = new HttpEntity(headers);
 
-        logger.warn("User Service " );
 
         ResponseEntity<String> responseEntity = restTemplate.exchange(apiUrl, HttpMethod.GET,entity, String.class);
+        logger.warn("this is response teams"+responseEntity.getHeaders());
 
         return responseEntity;
     }

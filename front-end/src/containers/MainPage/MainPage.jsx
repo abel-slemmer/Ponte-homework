@@ -1,27 +1,80 @@
 //@ts-check
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import ChannelListItem from "../../Components/ChannelItem";
 
 const MainPage = props => {
   const [userName, setUserName] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [channels, setChannesl] = useState([]);
+  const [members, setMembers] = useState([]);
+  const [inputText, setinputText] = useState("");
+  const [posts,setPost]=useState([]);
 
+  useEffect(() => {
+    axios
+      .get("/api/user/me")
+      .then(response => {
+        setUserName(response.data.username);
+        console.log(response.data);
+      })
+      .catch(error => {
+        console.log(error);
+        props.history.push("/");
+      });
 
-useEffect(() => {
-  let myUrl = "http://localhost:8080/api/user/me";
-  axios
-  .get(myUrl)
-  .then(response=>{
-    setUserName(response.data.username)
-    console.log(response.data);
+    axios
+      .get("/api/user/team")
+      .then(response => {
+        console.log(response.data);
+        localStorage.setItem("teamId", response.data[0].id);
+        setIsLoading(true);
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  }, []);
+
+  useEffect(() => {
+    if (localStorage.getItem("teamId")) {
+      axios
+        .get("/api/user/channels/" + localStorage.getItem("teamId"))
+        .then(response => {
+          console.log(response.data);
+          setChannesl(response.data);
+        })
+        .catch(error => {
+          console.log(error);
+        });
+      axios
+        .get("/api/user/members/" + localStorage.getItem("teamId"))
+        .then(response => {
+          console.log("Members", response.data);
+          setMembers(response.data);
+        })
+        .catch(error => {
+          console.log(error);
+        });
+    }
+  }, [isLoading]);
+
+  const getPosts = (channelId)=>{
+    console.log(channelId);
     
-  })
-  .catch(error=>{
-    console.log(error);
-    props.history.push("/")
-  });
+  }
 
-},[])
+  const handleSubmit = () => {};
 
+  const changeHandler = event => {};
+
+  let ChannelItem = channels.map(channel => (
+    <ChannelListItem
+      name={channel.display_name}
+      key={channel.id}
+      id={channel.id}
+      getPosts={()=>getPosts(channel.id)}
+    />
+  ));
 
   let content = (
     <>
@@ -32,27 +85,32 @@ useEffect(() => {
               <h1>Üdvözlünk {userName}! </h1>
             </div>
             <div className="d-flex justify-content-center">
-            <div className="d-flex flex-column bd-highlight mb-3">
-            <h2>Csatornák</h2>
-              <div className="p-2 bd-highlight">Flex item 1</div>
-              <div className="p-2 bd-highlight">Flex item 2</div>
-              <div className="p-2 bd-highlight">Flex item 3</div>
-            </div>
+              <div className="d-flex flex-column bd-highlight mb-3">
+                <h2>Csatornák</h2>
+                {ChannelItem}
+              </div>
             </div>
           </div>
           <div className="col-md-10">
-          <div className="h-200">
-            asdasd
-
-          </div>
+            <div className="h-200">asdasd</div>
           </div>
         </div>
         <div className="row fixed-bottom">
-        <div className="col-md-10 ml-auto align-self-end">
-        <div className="d-flex justify-content-end ">
-        <button className="btn btn-info mr-3 h-50">Send</button>
-        <textarea placeholder="Write your message here!"  className="mr-5 mb-5" name="textare" id="input" rows={2} cols={120} ></textarea>
-        </div>
+          <div className="col-md-10 ml-auto align-self-end">
+            <div className="d-flex justify-content-end ">
+              <button className="btn btn-info mr-3 h-50" onClick={handleSubmit}>
+                Send
+              </button>
+              <textarea
+                onChange={changeHandler}
+                placeholder="Write your message here!"
+                className="mr-5 mb-5"
+                name="textare"
+                id="input"
+                rows={2}
+                cols={120}
+              />
+            </div>
           </div>
         </div>
       </div>

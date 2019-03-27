@@ -23,7 +23,7 @@ const LoginForm = props => {
       password: password
     };
 
-    let myUrl = "http://localhost:8080/api/login";
+    let myUrl = "/api/login";
 
     axios
       .post(myUrl, formData)
