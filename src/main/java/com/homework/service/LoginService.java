@@ -26,8 +26,8 @@ public class LoginService {
         ObjectMapper mapper = new ObjectMapper();
         HttpHeaders headers = new HttpHeaders();
         headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
-        String jsonInString = null;
 
+        String jsonInString = null;
         try {
             jsonInString = mapper.writeValueAsString(user);
         } catch (JsonProcessingException e) {

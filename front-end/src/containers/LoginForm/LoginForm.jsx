@@ -28,12 +28,10 @@ const LoginForm = props => {
     axios
       .post(myUrl, formData)
       .then(response => {
-        //  props.history.push("/mainPage")
         console.log(response.data);
-        console.log(response.data.headers["Set-Cookie"][0]);
-        console.log(response.data.headers["Set-Cookie"][1]);
-        document.cookie = response.data.headers.Token[0];
+        document.cookie = "MMAUTHTOKEN="+response.data.headers.Token[0];
         document.cookie = response.data.headers["Set-Cookie"][1];
+        props.history.push("/mainPage")
       })
       .catch(error => {
         console.log(error);

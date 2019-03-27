@@ -26,7 +26,8 @@ public class LoginController {
     }
 
     @PostMapping
-    public ResponseEntity<?> getUserDetails(@RequestBody UserDetails userDetails) {
+    public ResponseEntity<?> userAuthenticate(@RequestBody UserDetails userDetails) {
+
         String mattermostLoginUrl= "http://mattermost.office.ponte.hu/api/v4/users/login";
 
         ResponseEntity<String> responseEntity = loginService.loginRequest(userDetails,mattermostLoginUrl);
@@ -34,8 +35,4 @@ public class LoginController {
         return new ResponseEntity<>(responseEntity, HttpStatus.OK);
     }
 
-    @GetMapping
-    public ResponseEntity getSmt(){
-        return new ResponseEntity(HttpStatus.OK);
-    }
 }
