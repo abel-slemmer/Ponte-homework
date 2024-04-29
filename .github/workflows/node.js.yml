@@ -20,5 +20,7 @@ jobs:
       run: |
         ls
         echo "$VARIABLE"
+        echo "$ROOT"
       env:
         VARIABLE: ${{ inputs.name }}
+        ROOT: ${{ github.workspace }}
